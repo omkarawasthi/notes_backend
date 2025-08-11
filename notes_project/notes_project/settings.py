@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','notes-backend-cl8w.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','notes-backend-cl8w.onrender.com','brilliant-crumble-28b2d4.netlify.app']
 
 AUTH_USER_MODEL = 'authentication.User'
 
@@ -160,6 +160,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     'https://notes-backend-cl8w.onrender.com',
+    'https://brilliant-crumble-28b2d4.netlify.app',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
